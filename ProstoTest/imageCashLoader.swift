@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-//картинки загружаются каждый раз как ячейка переиспользуется. исправляется добавлением NSCache
+///картинки загружаются каждый раз как ячейка переиспользуется. исправляется добавлением NSCache 
 
 class ImageLoader {
     var task = URLSessionDownloadTask()
