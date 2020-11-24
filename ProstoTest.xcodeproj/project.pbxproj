@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E763FB87256D52DC00FF4C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763FB86256D52DC00FF4C14 /* AppDelegate.swift */; };
 		E763FB89256D52DC00FF4C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763FB88256D52DC00FF4C14 /* SceneDelegate.swift */; };
-		E763FB8B256D52DC00FF4C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763FB8A256D52DC00FF4C14 /* ViewController.swift */; };
 		E763FB8E256D52DC00FF4C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E763FB8C256D52DC00FF4C14 /* Main.storyboard */; };
 		E763FB90256D52DE00FF4C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763FB8F256D52DE00FF4C14 /* Assets.xcassets */; };
 		E763FB93256D52DE00FF4C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E763FB91256D52DE00FF4C14 /* LaunchScreen.storyboard */; };
+		E763FB9B256D52F500FF4C14 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763FB9A256D52F500FF4C14 /* TableViewController.swift */; };
+		E763FB9D256D534300FF4C14 /* imageCashLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763FB9C256D534300FF4C14 /* imageCashLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E763FB83256D52DC00FF4C14 /* ProstoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProstoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E763FB86256D52DC00FF4C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E763FB88256D52DC00FF4C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E763FB8A256D52DC00FF4C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E763FB8D256D52DC00FF4C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E763FB8F256D52DE00FF4C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E763FB92256D52DE00FF4C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E763FB94256D52DE00FF4C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E763FB9A256D52F500FF4C14 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E763FB9C256D534300FF4C14 /* imageCashLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCashLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E763FB86256D52DC00FF4C14 /* AppDelegate.swift */,
 				E763FB88256D52DC00FF4C14 /* SceneDelegate.swift */,
-				E763FB8A256D52DC00FF4C14 /* ViewController.swift */,
 				E763FB8C256D52DC00FF4C14 /* Main.storyboard */,
 				E763FB8F256D52DE00FF4C14 /* Assets.xcassets */,
 				E763FB91256D52DE00FF4C14 /* LaunchScreen.storyboard */,
 				E763FB94256D52DE00FF4C14 /* Info.plist */,
+				E763FB9A256D52F500FF4C14 /* TableViewController.swift */,
+				E763FB9C256D534300FF4C14 /* imageCashLoader.swift */,
 			);
 			path = ProstoTest;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E763FB8B256D52DC00FF4C14 /* ViewController.swift in Sources */,
 				E763FB87256D52DC00FF4C14 /* AppDelegate.swift in Sources */,
+				E763FB9D256D534300FF4C14 /* imageCashLoader.swift in Sources */,
+				E763FB9B256D52F500FF4C14 /* TableViewController.swift in Sources */,
 				E763FB89256D52DC00FF4C14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
